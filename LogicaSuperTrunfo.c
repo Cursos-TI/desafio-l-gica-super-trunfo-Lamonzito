@@ -23,12 +23,12 @@ void compararcartas_densidade(float valor1, float valor2, char nomeatributo[], i
 {
     if (valor1 < valor2)
     {
-        printf("A primeira carta ganha em '%s'!\n", nomeatributo);
+        printf("A segunda carta ganha em '%s'!\n", nomeatributo);
         (*pontos2)++;
     }
     else if (valor1 > valor2)
     {
-        printf("A segunda carta ganha em '%s'!\n", nomeatributo);
+        printf("A primeira carta ganha em '%s'!\n", nomeatributo);
         (*pontos1)++;
     }
     else
